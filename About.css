@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Header y background */
+
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/camera-gc15a95947_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+
+.nabvar ul li{
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+}
+
+.nabvar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin-right: 50px;
+    position: relative;
+    padding: 0 10px;
+}
+
+.nabvar ul li a::after{
+    content: "";
+    background-color: #88A0A8;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.nabvar ul li a:hover{
+    color: #88A0A8;
+}
+
+.nabvar ul li a:hover::after{
+    width: 100%;
+}
+
+/* Titulo central */
+
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titulo{
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #FBFBFF;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 10px;
+}
+.titulo_p{
+    font-size: 40px;
+    color: #FBFBFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+/* section */
+.articulo{
+width: 100%;
+height: 100vh;
+background-color: #FBFBFF;
+text-align: center;
+padding: 10px;
+
+}
+
+.articulo-title{
+    font-size: 35px;
+    background-color: tan;
+    color: #1C1018;
+    border-radius: 10px;
+}
+
+.cajita{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.articulo-title2{
+    margin-top: 20px;
+    color: #04080F;
+    height: 400px;
+    padding: 35px;
+    
+    
+}
+.articulo-title2 h3{
+    font-size: 25px;
+    
+}
+
+
+
+
+.articulo-title2_p{
+    color: #181F1C;
+    margin: auto 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+
+
+
+
+/* La mision */
+
+.mision{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBFBFF;
+    
+}
+
+.mision-text .mision-p{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+
+.mision-text_mision{
+    text-align: justify;
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+    height: auto;
+    line-height: 28px;
+    color: #181F1C;
+}
+
+
+
+/*videos*/
+
+.video{
+    width: 100%;
+    height: 400px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.video-1{
+    width: 300px;
+    height: 315px;
+    
+    margin: 10px;
+}
+.video-2{
+    width: 300px;
+    height: 315px;
+    
+    margin: 10px;
+}
+.video-3{
+    width: 300px;
+    height: 315px;
+    
+    margin: 10px;
+}
+
+
+/*footer*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #231123;
+    text-align: center;
+    transition: all 300ms ease;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: #B20D30;
+}
+
+
+.pie-pagina .grupo-2{
+    background-color: red;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1{
+        width: 90%;
+        
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        padding: 35px 0px;
+    }
+    
+}
