@@ -101,7 +101,7 @@ body{
     width: 70%;
     height: 550px;
     margin-top: 30px;
-    border-radius: 30px;
+    
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -140,7 +140,7 @@ body{
     padding: 4px;
     display: block;
     color: white;
-    border-radius: 10px;
+    
 }
 
 
