@@ -24,7 +24,7 @@
     width: 80px;
     height: 80px;
     border-radius: 100%;
-    margin-left: 50px;
+
     cursor: pointer;
 }
 
@@ -33,14 +33,21 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    
+    width: 100%;
 }
 
 
-
+.nabvar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    margin: 0px;
+}
 
 .nabvar ul li{
     display: inline-block;
-    margin: 5px;
     list-style: none;
 }
 
@@ -49,9 +56,9 @@
     color: #fff;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
-    margin-right: 50px;
+
     position: relative;
-    padding: 0 10px;
+
 }
 
 .nabvar ul li a::after{
@@ -72,6 +79,34 @@
 .nabvar ul li a:hover::after{
     width: 100%;
 }
+
+/* Titulo central */
+
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titulo{
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #FBFBFF;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 10px;
+}
+.titulo_p{
+    font-size: 40px;
+    color: #FBFBFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 /* Centro total */
 

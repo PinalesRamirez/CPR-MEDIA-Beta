@@ -21,7 +21,7 @@ body{
 .conteiner{
     width: 100%;
     height: 100vh;
-    
+    background-image: url(img/backgroundrell.jpg);
     background-size: cover;
     background-position: center;
     
@@ -31,7 +31,7 @@ body{
     width: 80px;
     height: 80px;
     border-radius: 100%;
-    margin-left: 50px;
+
     cursor: pointer;
 }
 
@@ -45,11 +45,16 @@ body{
 }
 
 
-
+.nabvar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    margin: 0px;
+}
 
 .nabvar ul li{
     display: inline-block;
-    margin: 5px;
     list-style: none;
 }
 
@@ -58,9 +63,9 @@ body{
     color: #fff;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
-    margin-right: 50px;
+
     position: relative;
-    padding: 0 10px;
+
 }
 
 .nabvar ul li a::after{
